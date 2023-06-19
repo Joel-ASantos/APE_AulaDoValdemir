@@ -18,7 +18,7 @@ Observação: O programa deve finalizar quando for sorteado o valor 0
 int main(void)
 {   
     //Declarando variáveis
-    int contador = 0,maior_sorteio = 0,sorteio,pares;
+    int contador = 0,maior_sorteio = 0,sorteio,pares=0;
 
     //Usando uma função para deixar aleatório
     srand(time(NULL));
